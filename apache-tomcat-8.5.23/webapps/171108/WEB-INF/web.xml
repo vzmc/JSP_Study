@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+  version="3.1">
+  <servlet>
+    <servlet-name>checkbox01</servlet-name>
+    <servlet-class>lesson01.Checkbox</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>checkbox01</servlet-name>
+    <url-pattern>/lesson01/checkbox01</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>cart</servlet-name>
+    <servlet-class>lesson02.Cart</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cart</servlet-name>
+    <url-pattern>/lesson02/cart</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>control</servlet-name>
+    <servlet-class>lesson03.Control</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>control</servlet-name>
+    <url-pattern>/lesson03/control</url-pattern>
+  </servlet-mapping>
+
+</web-app>

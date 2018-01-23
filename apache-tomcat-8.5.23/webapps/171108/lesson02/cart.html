@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shoping Cart</title>
+</head>
+<body>
+    <form action="cart" method="post">
+        <h3>注文個数を選んでください</h3>
+        <select name="count" id="count">
+            <option value="1"> 1個</option>
+            <option value="2"> 2個</option>
+            <option value="3"> 3個</option>
+            <option value="4"> 4個</option>
+            <option value="5"> 5個</option>
+        </select>
+
+        <h3>お支払い方法を選択して下さい</h3>
+        <input type="radio" name="payment" value="カード" checked>カード
+        <input type="radio" name="payment" value="銀行振込">銀行振込
+        <input type="radio" name="payment" value="代引き">代引き
+        <input type="radio" name="payment" value="コンビニ決済">コンビニ決済
+
+        <h3>その他、ご要望があればお書きください</h3>
+        <p>
+            <textarea name="comment" id="comment" rows="15" cols="60"></textarea>
+        </p>
+
+        <input type="submit" value="送信">
+    </form>
+</body>
+</html>

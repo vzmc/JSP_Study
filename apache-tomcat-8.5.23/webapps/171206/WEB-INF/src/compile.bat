@@ -1,0 +1,1 @@
+javac -cp C:\apache-tomcat-8.5.23\lib\servlet-api.jar -encoding utf-8 -d ..\classes -sourcepath . %1
